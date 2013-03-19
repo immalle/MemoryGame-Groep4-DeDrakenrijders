@@ -1,0 +1,1 @@
+Voeg afbeelding toe aan de map MemoryGameAfbeeldingen.
