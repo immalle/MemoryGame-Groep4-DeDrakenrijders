@@ -5,4 +5,7 @@
         Form1.Show()
     End Sub
 
+    Private Sub Label1_MouseHover(sender As Object, e As System.EventArgs) Handles Label1.MouseHover
+
+    End Sub
 End Class

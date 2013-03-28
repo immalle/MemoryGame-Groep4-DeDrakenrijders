@@ -83,7 +83,7 @@ Partial Class Form1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(-82, -7)
+        Me.PictureBox1.Location = New System.Drawing.Point(-72, -8)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(619, 368)
         Me.PictureBox1.TabIndex = 4
