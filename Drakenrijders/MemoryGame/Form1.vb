@@ -29,14 +29,22 @@
                 kaart.BorderStyle = BorderStyle.FixedSingle
                 Form2.Controls.Add(kaart)
 
-                AddHandler kaart.MouseClick, AddressOf LabelOnMouseClickEventHandler
-
-                Dim a As Integer = randomGenerator.Next(1, 6)
-                Dim pict As New Label()
-                pict.Size = New Size(100, 130)
-                pict.Location = New Point(75 + (j - 1) * 120, 60 + (i - 1) * 165)
-                pict.Image = My.Resources.ResourceManager.GetObject("_" & a)
-                Form2.Controls.Add(pict)
+                'AddHandler kaart.MouseClick, AddressOf LabelOnMouseClickEventHandler
+                'Dim afbeeldingen As New List(Of Image)
+                'afbeeldingen.Add(My.Resources._1)
+                'afbeeldingen.Add(My.Resources._1)
+                'afbeeldingen.Add(My.Resources._2)
+                'afbeeldingen.Add(My.Resources._2)
+                'afbeeldingen.Add(My.Resources._3)
+                'afbeeldingen.Add(My.Resources._3)
+                'afbeeldingen.Add(My.Resources._4)
+                'afbeeldingen.Add(My.Resources._4)
+                'Dim a As Integer = randomGenerator.Next(1, 4)
+                'Dim pict As New Label()
+                'pict.Size = New Size(100, 130)
+                'pict.Location = New Point(75 + (j - 1) * 120, 60 + (i - 1) * 165)
+                'pict.Image =
+                'Form2.Controls.Add(pict)
             Next
         Next
     End Sub
